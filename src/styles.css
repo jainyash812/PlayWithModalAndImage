@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.App,
+.my-modal {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image,
+.modal-image {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  margin: 1rem;
+}
+.modal-image {
+  width: 90%;
+}
+.my-modal {
+  height: 100vh;
+  background: lightgray;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: wheat;
+  color: black;
+}
+.modal-button {
+  margin-right: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.modal-button:hover {
+  background: lightblue;
+  border: 1px solid darkblue;
+  color: darkblue;
+}
+.close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 1.5rem;
+  transform: scale(1.5);
+}
+.close-btn:hover {
+  background: red;
+  color: white;
+}
